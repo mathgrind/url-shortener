@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener",
+  "version": "0.0.1",
+  "description": "Learning project. Implements the url-shortener described by freecodecamp.com.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathgrind/url-shortener.git"
+  },
+  "author": "Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathgrind/url-shortener/issues"
+  },
+  "homepage": "https://github.com/mathgrind/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.21"
+  }
+}
