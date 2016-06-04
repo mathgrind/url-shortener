@@ -10,7 +10,6 @@ db.then(function(res) {
             if (result===null) {
                 collection.insertOne({_id: "urls", count: 0});
             }
-            console.log("Database ready.");
         });
     });
 });
@@ -49,7 +48,6 @@ app.get(/([0-9]+)/, function(req, res) {
     });
 });
 
-//<div class="rg_meta">({.*?})<\/div>
 function storeUrl(url, callback) {
     db.collection("urls", function(err, collection) {
         if (err) console.log(err);
